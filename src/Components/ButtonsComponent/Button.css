@@ -1,0 +1,30 @@
+.button_div{
+    background-color: white;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #00ced1;
+    /* border-color:brown */
+    color : white;
+    border-color:wheat;
+    
+}
+.circle:hover {
+    background-color: tomato;
+}
+ label{
+    position: relative;
+    left: -20px;
+    top: -10px;
+    text-align: left;
+    font-size: 10px;
+    color: #0f0f70;
+} 

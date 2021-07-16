@@ -1,0 +1,102 @@
+.App {
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 237, 243);
+
+    
+}
+
+.box {
+    background: white;
+    height: 480px;
+    width: 350px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 5px #888888;
+   
+    
+}
+
+.btn {
+    background-color: #00ced1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: tomato;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* background-color: rgb(17, 19, 19); */
+    /* padding: 12px; */
+    height: 90px;
+    background-color:white;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 12px;
+    height: 80px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 70px;
+    height: 50px;
+    width: 200px;
+    background-color:rgb(247, 230, 230);
+}
+
+input {
+    height: 35px;
+    width: 60%;
+    background-color:white;
+    color:white;
+    
+    
+}
+
+label {
+    position: relative;
+    left: -25px;
+    top: -10px;
+    text-align: left;
+    font-size: 10px;
+    color: #0f0f70;
+    margin-left: 30px;
+}
+
+.sensor-div {
+    background-color: white;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.auto{
+    height: 70px;
+    width: 150px;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 28%;
+}

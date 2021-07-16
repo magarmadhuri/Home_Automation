@@ -1,0 +1,19 @@
+.main1 {
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 237, 243);
+
+    
+}
+.card1 {
+    background: white;
+    height: 410px;
+    width: 300px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    padding-top: 50px;
+    padding-left: 30px;
+}

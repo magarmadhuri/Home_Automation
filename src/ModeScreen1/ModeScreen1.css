@@ -1,0 +1,115 @@
+.main {
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 237, 243);
+
+    
+}
+
+.card {
+    background: white;
+    height: 460px;
+    width: 330px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.div1{
+    margin-left: 4px;
+    height: 40%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+h5{
+    display:inline;
+    float:left;
+    margin-left: 23px;
+    margin-top: 38px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#3c1874 ;
+    }
+    h6{
+    display:inline;
+    float:right;
+    margin-right: 50px;
+    font-size: 15px;
+    margin-top: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c1874;
+    }
+    .switchbtn{
+         display: flex; 
+        align-items: center;
+        justify-content: center;
+         margin-top: 5px; 
+        }
+        .button_div{
+            margin-top: 30px;
+            margin-left: 50px;
+            width: 250px;
+            height: 50px;
+             /* border: 1px solid; */
+           
+
+        }
+        .circle{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: #00e6b8;
+            /* border-color:brown */
+            color : white;
+            border-color:wheat;
+            margin: 3px;
+            
+        }
+        .circle:hover {
+            background-color: #e6b800;
+        }
+.div2{
+    position: absolute;
+    height: 60%;
+    width: 330px;
+    align-items: center;
+   
+   /* background-color: grey;
+    */
+}
+.button_div2{
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 180px;
+    height: 50px;
+}
+.div3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.switchDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+     
+.switchDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .timerBtn{
+    background-color:green;
+   color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }

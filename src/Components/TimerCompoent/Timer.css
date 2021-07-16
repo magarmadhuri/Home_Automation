@@ -1,0 +1,12 @@
+.timer1{
+    height: 60px;
+    width: 60px;
+    color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(71, 68, 68);
+    margin-left: 40%;
+    margin-top: 5px;
+    border-radius: 5px;
+} 
